@@ -1,0 +1,23 @@
+@import './variables';
+
+.short-desc-container {
+  background: $custom-secondary;
+  color: $custom-light;
+  padding: 1rem;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+
+  .lead {
+    font-family: $font-face2;
+    font-weight: $light;
+    font-size: 28px;
+  }
+}
+
+.image-container {
+  background: url(../images/webdesigning.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}

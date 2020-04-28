@@ -1,0 +1,45 @@
+@import './variables';
+
+.header-banner-container {
+  padding: 0;
+  margin: 0;
+  background: $custom-dark;
+
+  .title-container {
+    height: 90vh;
+
+    .hello-title {
+      margin-top: 3rem;
+      color: $custom-primary;
+      font-size: 252px;
+      font-size: 17.5vw;
+      line-height: 12vw;
+      font-family: $font-face1;
+      font-weight: $bold;
+  
+      span {
+        color: $custom-light;
+      }
+    }
+  
+    .name-title1 {
+      color: $custom-light;
+      font-size: 252px;
+      font-size: 17.5vw;
+      line-height: 12vw;
+      font-family: $font-face1;
+      font-weight: $bold;
+      animation-delay: 1.2s;
+    }
+  
+    .name-title2 {
+      color: $custom-light;
+      font-size: 252px;
+      font-size: 17.5vw;
+      line-height: 12vw;
+      font-family: $font-face1;
+      font-weight: $bold;
+      animation-delay: 1.4s;
+    }
+  }
+}

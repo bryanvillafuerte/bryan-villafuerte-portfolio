@@ -1,0 +1,21 @@
+@import './variables';
+
+.navbar {
+  background: $custom-dark-50;
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  .navbar-brand {
+    width: 100px;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+
+  button {
+    border: none;
+  }
+}

@@ -23,7 +23,7 @@ function MainNavbar() {
             <AnchorLink href='#myWork' className='nav-link'>My Work</AnchorLink>
           </Nav.Link>
           <Nav.Link className='ml-auto'>
-            <AnchorLink href='#contact' className='nav-link'>Contact</AnchorLink>
+            <AnchorLink href='#contactMe' className='nav-link'>Contact</AnchorLink>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

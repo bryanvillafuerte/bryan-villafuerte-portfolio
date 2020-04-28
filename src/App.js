@@ -6,6 +6,7 @@ import HeaderBanner from './components/HeaderBanner';
 import ShortDescription from './components/ShortDescription';
 import AboutSection from './components/AboutSection';
 import WorkSection from './components/WorkSection';
+import ContactMe from './components/ContactSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ShortDescription />
       <AboutSection />
       <WorkSection />
+      <ContactMe />
     </Container>
   );
 }

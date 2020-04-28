@@ -1,0 +1,55 @@
+@import './variables';
+
+.contact-container {
+  background: $custom-primary;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+
+  h2 {
+    padding-bottom: 3rem;
+    color: $custom-light;
+    font-size: 150px;
+    font-size: 12vw;
+    line-height: 9vw;
+    font-family: $font-face1;
+    font-weight: $bold;
+
+    span {
+      color: $custom-dark;
+    }
+  }
+
+  h3 {
+    font-family: $font-face2;
+    color: $custom-dark;
+    font-size: 32px;
+
+    a {
+      text-decoration: none;
+      font-family: $font-face2;
+      color: $custom-dark;
+      transition: linear all .2s;
+
+      &:hover {
+        color: $custom-light;
+      }
+    }
+  }
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+  }
+}
+
+.footer-container {
+  padding: .5rem;
+  padding-bottom: 0;
+  background: $custom-dark;
+
+  p {
+    color: $custom-light;
+  }
+}

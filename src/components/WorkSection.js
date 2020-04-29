@@ -44,13 +44,11 @@ function WorkSection() {
               <Modal
                 show={modalShow1}
                 onHide={() => setModalShow1(false)}
-                size='xl'
-                centered
               >
                 <Modal.Header closeButton />
                 <Modal.Body>
                   <div className="embed-container">
-                    <ResponsiveEmbed aspectRatio="16by9">
+                    <ResponsiveEmbed>
                       <embed src="https://nasa-spacex-react.netlify.app" />
                     </ResponsiveEmbed>
                   </div>
@@ -72,14 +70,12 @@ function WorkSection() {
               <Modal
                 show={modalShow2}
                 onHide={() => setModalShow2(false)}
-                size='xl'
-                centered
               >
                 <Modal.Header closeButton />
                 <Modal.Body>
                   <div className="embed-container">
-                    <ResponsiveEmbed aspectRatio="16by9">
-                      <embed src="https://nasa-spacex-react.netlify.app" />
+                    <ResponsiveEmbed>
+                      <embed src="https://devshaft-media.netlify.app/" />
                     </ResponsiveEmbed>
                   </div>
                 </Modal.Body>
@@ -100,13 +96,11 @@ function WorkSection() {
               <Modal
                 show={modalShow3}
                 onHide={() => setModalShow3(false)}
-                size='xl'
-                centered
               >
                 <Modal.Header closeButton />
                 <Modal.Body>
                   <div className="embed-container">
-                    <ResponsiveEmbed aspectRatio="16by9">
+                    <ResponsiveEmbed>
                       <embed src="https://bryjhovillafuerte.myportfolio.com/letha-responsive-web-design" />
                     </ResponsiveEmbed>
                   </div>
@@ -132,13 +126,11 @@ function WorkSection() {
               <Modal
                 show={modalShow4}
                 onHide={() => setModalShow4(false)}
-                size='xl'
-                centered
               >
                 <Modal.Header closeButton />
                 <Modal.Body>
                   <div className="embed-container">
-                    <ResponsiveEmbed aspectRatio="16by9">
+                    <ResponsiveEmbed>
                       <embed src="https://bryjhovillafuerte.myportfolio.com/ordras" />
                     </ResponsiveEmbed>
                   </div>
@@ -160,13 +152,11 @@ function WorkSection() {
               <Modal
                 show={modalShow5}
                 onHide={() => setModalShow5(false)}
-                size='xl'
-                centered
               >
                 <Modal.Header closeButton />
                 <Modal.Body>
                   <div className="embed-container">
-                    <ResponsiveEmbed aspectRatio="16by9">
+                    <ResponsiveEmbed>
                       <embed src="https://bryjhovillafuerte.myportfolio.com/zoo-family-app" />
                     </ResponsiveEmbed>
                   </div>

@@ -17,5 +17,13 @@
 
   button {
     border: none;
+    padding: 0;
+  }
+
+  a {
+    font-family: $font-face1;
+    font-weight: $medium;
+    font-size: 1.3rem;
+    padding: .3rem;
   }
 }
